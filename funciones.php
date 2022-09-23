@@ -2,10 +2,10 @@
 
 
 function Conectar(){
-    if(!($cnn = mysqli_connect("sql200.260mb.net","n260m_32641280","tahir148"))){
+    if(!($cnn = mysqli_connect("Nombre del dominio","Usuario","Contraseña del PanelC"))){
         exit();
     }
-    if(! mysqli_select_db($cnn,"n260m_32641280_empresa")){
+    if(! mysqli_select_db($cnn,"Nombre de la base de datoas en el hosting")){
         exit();
     }
     return $cnn;
