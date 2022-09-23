@@ -1,0 +1,11 @@
+
+body {
+    
+    background-image: url(fondo.jpg);
+    background-position: 0, center;
+    background-repeat: no-repeat, repeat;
+    background-size: cover, auto;
+    /*background-attachment: fixed, scroll;*/
+   
+    
+}
